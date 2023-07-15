@@ -50,6 +50,7 @@ console.log(countTrue([false, false, false, false]))
 console.log(countTrue([]))
 
 ponto()
+/*Verificar de qual geração é a partir de um numero e sexo*/ 
 
 function generation(number, sexo){
     const generations = {
@@ -72,8 +73,19 @@ console.log(generation(0, "f"))
 console.log(generation(-3, "m"))
 console.log(generation(1, "f"))
 
+ponto()
 
+// Verificar a quantidade de numeros inteiros contidos em um numeros 
 
+function num_of_digits(number){
+    const regExp = /\d/g
+}
+
+// console.log(num_of_digits(1000))
+
+const number = 1000
+const regExp2 = /\d+/g
+console.log(number.match(regExp2))
 
 
 
