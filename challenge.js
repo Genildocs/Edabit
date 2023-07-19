@@ -85,19 +85,33 @@ function num_of_digits(number){
 
 const number = 1000
 const regExp2 = /\d+/g
-console.log(number.match(regExp2))
+/*console.log(number.match(regExp2))*/
+
+ponto()
+
+/*Converter obj em array*/
+
+// function toArray(obj){
+//
+//     return Object.entries(obj)
+//
+// }
+//
+// console.log(toArray({ a: 1, b: 2 }))
+
+const toArray = obj => Object.entries(obj)
+console.log(toArray({ a: 1, b: 2 }))
 
 
+ponto()
 
+function cubes(a) {
+	return a ** 3
+}
 
+console.log(cubes(3))
 
-
-
-
-
-
-
-
+ponto()
 
 
 
